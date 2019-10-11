@@ -1,2 +1,2 @@
-# communitydetection
-Community detection problem in an evolving and heterogeneous structure through Evolutionary Computation + Clustering
+# community detection
+Community detection problem in a heterogeneous structure through Evolutionary Computation + Clustering
