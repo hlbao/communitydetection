@@ -1,8 +1,7 @@
-%This code is designed by Honglin Bao @ Banzhaf Lab, CSE Michigan State University and NSF BEACON Center for the Study of Evolution in Action%
+%This code is designed by Honglin Bao, CSE Michigan State University and NSF BEACON Center for the Study of Evolution in Action%
 %Version 1, April 2019%
-%Community detection problem in heterogenous and evolving networks through clustering and genetic algorithm.%
+%Community detection problem in heterogeneous and evolving networks through clustering and genetic algorithm.%
 %Contact: baohongl@msu.edu%
-%https://cse.msu.edu/person/3%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -72,7 +71,7 @@ for i=1:pop_size
 end
 %%%%%%%%%%Population Initialization%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%½ø»¯
+%%%%%%%%%%%%Â½Ã¸Â»Â¯
 x=[1;T];
 y=zeros(1,T);
 tic;
@@ -84,7 +83,7 @@ for t=1:T
 end
 tt=toc;
 plot(x,y);
-%%%%%%%%%%%%½ø»¯
+%%%%%%%%%%%%Â½Ã¸Â»Â¯
 labels=pop(1,:);
 labels=convert_labels(labels);
 Q=pop_Q(1);
